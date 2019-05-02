@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/18.1
+vALU
+Z0 !s110 1556811204
+!i10b 1
+!s100 0X1cXzZV8OWIO4k^7SS;j0
+IoNmhF_?CiC2DWIa1f^MLT3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/ali/Desktop/CA_CA3
+w1556811132
+8C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v
+FC:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v
+L0 4
+Z3 OV;L;10.6d;65
+r1
+!s85 0
+31
+Z4 !s108 1556811204.000000
+!s107 C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vMemory
+R0
+!i10b 1
+!s100 j2R[<43P279L_I3G8;m7I2
+INL@@XRXhmGT?=UIkSYzfl1
+R1
+R2
+w1556802624
+8C:/Users/ali/Desktop/CA_CA3/Memory.v
+FC:/Users/ali/Desktop/CA_CA3/Memory.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Memory.v|
+!i113 1
+R5
+R6
+n@memory
+vProgramCounter
+R0
+!i10b 1
+!s100 ;n]?2=6`Hn1bVeM43A@F:3
+If@;NINLAQ6n107X45P?gD2
+R1
+R2
+w1556804613
+8C:/Users/ali/Desktop/CA_CA3/ProgramCounter.v
+FC:/Users/ali/Desktop/CA_CA3/ProgramCounter.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/ProgramCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/ProgramCounter.v|
+!i113 1
+R5
+R6
+n@program@counter
+vstack
+R0
+!i10b 1
+!s100 4a>6:V>D:ZX:L7BSaBA2f0
+IfOUYZgT>=Bab7jfAm7jO72
+R1
+R2
+w1556802623
+8C:/Users/ali/Desktop/CA_CA3/Stack.v
+FC:/Users/ali/Desktop/CA_CA3/Stack.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/Stack.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Stack.v|
+!i113 1
+R5
+R6

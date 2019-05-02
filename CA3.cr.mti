@@ -1,0 +1,29 @@
+C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/ali/Desktop/CA_CA3/ProgramCounter.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/ProgramCounter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ProgramCounter
+
+Top level modules:
+	ProgramCounter
+
+} {} {}} C:/Users/ali/Desktop/CA_CA3/Memory.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/Memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} C:/Users/ali/Desktop/CA_CA3/Stack.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/Stack.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module stack
+
+Top level modules:
+	stack
+
+} {} {}}
