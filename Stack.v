@@ -1,7 +1,7 @@
 
 `timescale 1ns/1ns
 
-module stack(data_in, push, pop, tos, clk, rst, data_out);
+module Stack(data_in, push, pop, tos, clk, rst, data_out);
   input              push, pop, tos, clk, rst;
   input       [7:0]  data_in;
   output reg  [7:0]  data_out;

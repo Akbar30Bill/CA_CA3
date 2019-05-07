@@ -1,4 +1,12 @@
-C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v
+C:/Users/ali/Desktop/CA_CA3/Controller.v {2 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Controller
+** Warning: (vlog-2121) C:/Users/ali/Desktop/CA_CA3/Controller.v(71): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module ALU
 
@@ -21,9 +29,16 @@ Top level modules:
 
 } {} {}} C:/Users/ali/Desktop/CA_CA3/Stack.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/Stack.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module stack
+-- Compiling module Stack
 
 Top level modules:
-	stack
+	Stack
+
+} {} {}} C:/Users/ali/Desktop/CA_CA3/Mux.v {1 {vlog -work work -stats=none C:/Users/ali/Desktop/CA_CA3/Mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module Mux
+
+Top level modules:
+	Mux
 
 } {} {}}

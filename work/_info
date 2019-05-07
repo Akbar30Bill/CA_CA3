@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/18.1
 vALU
-Z0 !s110 1556811204
+Z0 !s110 1557244665
 !i10b 1
 !s100 0X1cXzZV8OWIO4k^7SS;j0
 IoNmhF_?CiC2DWIa1f^MLT3
@@ -23,15 +23,59 @@ Z3 OV;L;10.6d;65
 r1
 !s85 0
 31
-Z4 !s108 1556811204.000000
+Z4 !s108 1557244665.000000
 !s107 C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/ArithmeticLogicUnit.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 n@a@l@u
-vMemory
+vController
 R0
+!i10b 1
+!s100 >6[z7[mog7dnCJBV:[B`=3
+IH`GHRC?>NE=dD?dn5lY5h2
+R1
+R2
+w1557240709
+8C:/Users/ali/Desktop/CA_CA3/Controller.v
+FC:/Users/ali/Desktop/CA_CA3/Controller.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Controller.v|
+!i113 1
+R5
+R6
+n@controller
+vDataPath
+R0
+!i10b 1
+!s100 1A0IS4To8_kGcJl3Ck`3z3
+I1A_d>FJhLECRn^c0Sc[o]3
+R1
+R2
+w1557244234
+8C:/Users/ali/Desktop/CA_CA3/DataPath.v
+FC:/Users/ali/Desktop/CA_CA3/DataPath.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/DataPath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/DataPath.v|
+!i113 1
+R5
+R6
+n@data@path
+vMemory
+!s110 1557244664
 !i10b 1
 !s100 j2R[<43P279L_I3G8;m7I2
 INL@@XRXhmGT?=UIkSYzfl1
@@ -45,13 +89,57 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1557244664.000000
 !s107 C:/Users/ali/Desktop/CA_CA3/Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Memory.v|
 !i113 1
 R5
 R6
 n@memory
+vMips
+R0
+!i10b 1
+!s100 ebB4z[ES[_6=0oohGEVQT0
+ID3?z0ad8Wz=UZdO]9ilEU1
+R1
+R2
+w1557244661
+8C:/Users/ali/Desktop/CA_CA3/Mips.v
+FC:/Users/ali/Desktop/CA_CA3/Mips.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/Mips.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Mips.v|
+!i113 1
+R5
+R6
+n@mips
+vMux
+R0
+!i10b 1
+!s100 h`S8_Rn[TOUMHhmoF`kG50
+IeAe?=ca>ZUlm:_2jF1e^n1
+R1
+R2
+w1557241133
+8C:/Users/ali/Desktop/CA_CA3/Mux.v
+FC:/Users/ali/Desktop/CA_CA3/Mux.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ali/Desktop/CA_CA3/Mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Mux.v|
+!i113 1
+R5
+R6
+n@mux
 vProgramCounter
 R0
 !i10b 1
@@ -74,24 +162,46 @@ R4
 R5
 R6
 n@program@counter
-vstack
+vStack
 R0
 !i10b 1
-!s100 4a>6:V>D:ZX:L7BSaBA2f0
-IfOUYZgT>=Bab7jfAm7jO72
+!s100 fIUO?5kKBeSJ2JX5a9fFg1
+INWC>RL7FRbG`MdoUV[:683
 R1
 R2
-w1556802623
-8C:/Users/ali/Desktop/CA_CA3/Stack.v
-FC:/Users/ali/Desktop/CA_CA3/Stack.v
+w1557242927
+Z7 8C:/Users/ali/Desktop/CA_CA3/Stack.v
+Z8 FC:/Users/ali/Desktop/CA_CA3/Stack.v
 L0 4
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/Users/ali/Desktop/CA_CA3/Stack.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Stack.v|
+Z9 !s107 C:/Users/ali/Desktop/CA_CA3/Stack.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ali/Desktop/CA_CA3/Stack.v|
+!i113 1
+R5
+R6
+n@stack
+vstack
+!s110 1557242858
+!i10b 1
+!s100 4a>6:V>D:ZX:L7BSaBA2f0
+IfOUYZgT>=Bab7jfAm7jO72
+R1
+R2
+w1556802623
+R7
+R8
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1557242858.000000
+R9
+R10
 !i113 1
 R5
 R6

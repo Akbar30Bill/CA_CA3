@@ -1,14 +1,14 @@
 
 `timescale 1ns/1ns
 
-module Controller(clk <= 0; rst, PCWrite, PCWriteCond, PCsrc, instruction,
+module Controller(clk, rst, PCWrite, PCWriteCond, PCsrc, instruction,
                   IorD, MemRead, MemWrite, IRWrite, MtoS, ldA, ldB, srcA, srcB,
                   ALUop, push, pop, tos, PC
                   );
   input clk, rst;
   input [7:0] instruction;
   input [2:0] PC;
-  output [1:0] ALUop;
+  output reg [1:0] ALUop;
   output reg PCWrite, PCWriteCond, PCsrc, IorD, MemRead,
          MemWrite, IRWrite, MtoS, ldA, ldB, srcA,
          srcB, push, pop, tos;
@@ -33,9 +33,9 @@ module Controller(clk <= 0; rst, PCWrite, PCWriteCond, PCsrc, instruction,
         1: begin
             tos <= 1;
             case(instruction)
-              100xxxxx: lvl <= 2;//PUSH
-              111xxxxx: lvl <= 12;//JZ
-              110xxxxx: lvl <= 13;//JMP
+              8'b100xxxxx: lvl <= 2;//PUSH
+              8'b111xxxxx: lvl <= 12;//JZ
+              8'b110xxxxx: lvl <= 13;//JMP
               default : lvl <= 4;
             endcase
            end
@@ -54,10 +54,10 @@ module Controller(clk <= 0; rst, PCWrite, PCWriteCond, PCsrc, instruction,
         5: begin
             ldA <= 1;
             case(instruction)
-              000xxxxx: lvl <=  6;
-              001xxxxx: lvl <=  6;
-              010xxxxx: lvl <=  6;
-              011xxxxx: lvl <= 10;
+              8'b000xxxxx: lvl <=  6;
+              8'b001xxxxx: lvl <=  6;
+              8'b010xxxxx: lvl <=  6;
+              8'b011xxxxx: lvl <= 10;
               default : lvl <= 11;
             endcase
            end
@@ -68,7 +68,7 @@ module Controller(clk <= 0; rst, PCWrite, PCWriteCond, PCsrc, instruction,
             ldB <= 1; lvl  <= 8;
            end
         8: begin
-            ALUop <= {0 , pc[1:0]}; lvl <= 9;
+            ALUop <= {0 , PC[1:0]}; lvl <= 9;
            end
         9: begin
             push <= 1; lvl <= 0;
